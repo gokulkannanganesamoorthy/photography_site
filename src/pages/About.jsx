@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import portraitImage from '../assets/portfolio/portrait_2.png';
 
 export default function About() {
   return (
@@ -21,7 +22,7 @@ export default function About() {
           initial={{ scale: 1.2 }}
           whileInView={{ scale: 1 }}
           transition={{ duration: 1.5 }}
-          src="https://images.unsplash.com/photo-1554048612-387768052bf7?q=80&w=1935&auto=format&fit=crop"
+          src={portraitImage}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 flex items-center justify-center">
