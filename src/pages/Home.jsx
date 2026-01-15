@@ -10,6 +10,7 @@ import {
 } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { portfolioItems } from '../data';
+import heroBg from '../assets/portfolio/hero_bg.png';
 
 // Parallax text component
 const ParallaxText = ({ children, baseVelocity = 100 }) => {
@@ -74,7 +75,7 @@ export default function Home() {
           className="absolute inset-0 z-0 opacity-40 grayscale contrast-125"
         >
           <img
-            src="/src/assets/portfolio/hero_bg.png"
+            src={heroBg}
             alt="Background"
             className="w-full h-full object-cover"
           />
