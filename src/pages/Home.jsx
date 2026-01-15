@@ -74,7 +74,8 @@ export default function Home() {
           className="absolute inset-0 z-0 opacity-40 grayscale contrast-125"
         >
           <img
-            src="https://images.unsplash.com/photo-1542206391-7f949282cd27?q=80&w=2070&auto=format&fit=crop"
+            src="/src/assets/portfolio/hero_bg.png"
+            alt="Background"
             className="w-full h-full object-cover"
           />
         </motion.div>

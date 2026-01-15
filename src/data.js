@@ -1,3 +1,10 @@
+import editorial1 from './assets/portfolio/editorial_1.png';
+import portrait1 from './assets/portfolio/portrait_1.png';
+import commercial1 from './assets/portfolio/commercial_1.png';
+import wedding1 from './assets/portfolio/wedding_1.png';
+import editorial2 from './assets/portfolio/editorial_2.png';
+import portrait2 from './assets/portfolio/portrait_2.png';
+
 export const portfolioCategories = [
   { id: 'editorial', name: 'Editorial' },
   { id: 'portrait', name: 'Portrait' },
@@ -10,48 +17,42 @@ export const portfolioItems = [
     id: 1,
     title: 'Vogue Cover Shoot',
     category: 'editorial',
-    image:
-      'https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=2070&auto=format&fit=crop',
+    image: editorial1,
     size: 'large',
   },
   {
     id: 2,
     title: 'Urban Souls',
     category: 'portrait',
-    image:
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1964&auto=format&fit=crop',
+    image: portrait1,
     size: 'small',
   },
   {
     id: 3,
     title: 'Neon Dreams',
     category: 'commercial',
-    image:
-      'https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=1935&auto=format&fit=crop',
+    image: commercial1,
     size: 'medium',
   },
   {
     id: 4,
     title: 'Ethereal Love',
     category: 'wedding',
-    image:
-      'https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=2070&auto=format&fit=crop',
+    image: wedding1,
     size: 'large',
   },
   {
     id: 5,
     title: 'Monochrome Gaze',
     category: 'portrait',
-    image:
-      'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=1964&auto=format&fit=crop',
+    image: portrait2,
     size: 'medium',
   },
   {
     id: 6,
     title: 'Industrial Fashion',
     category: 'editorial',
-    image:
-      'https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2070&auto=format&fit=crop',
+    image: editorial2,
     size: 'large',
   },
 ];
